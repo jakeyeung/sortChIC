@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+outputs_R
+*.html
+*.pdf
+*scripts/transfer_scripts
+*.DS_Store
+*.stderr
+*.stdout
+*.out
+*.err
