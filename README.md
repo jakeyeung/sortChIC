@@ -44,4 +44,9 @@ Example scripts are ordered from 1 to 6, which are run in ascending order. Singl
 6-run_LDA*.sh: runs latent Dirichlet allocation on cleaned count matrix (i.e. bad cells removed, bad regions removed).
 
 
+### Vignettes for exploring data 
+
+Check out `vignettes/explore_HSPC_dataset_quantify_log2fc_across_genesets.md` for an example of how to explore the HSPC data and access the log2 fold change estimates between cell types.
+
+
 
