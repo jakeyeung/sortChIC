@@ -1,4 +1,4 @@
-## Code for analysis of sortChIC
+# Repository of code used to do sortChIC processing and analysis
 
 ### processing_scripts: 
 
@@ -12,7 +12,7 @@
 
 - Some packages are install.packages() some are through bioconductor, except JFuncs is installed through github devtools::install_github("jakeyeung/JFuncs")
 
-### Example of running pipeline:
+# Example of running pipeline:
 
 In `example_processing_pipeline/` there is a full example that takes fastq files, demultiplexes, trims, maps, tags bam files, generates count tables, and runs count tables through dimensionality reduction. 
 
