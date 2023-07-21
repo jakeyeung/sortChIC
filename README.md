@@ -1,5 +1,7 @@
 =# Repository of code used to do sortChIC processing and analysis
 
+This is a repository of *all* scripts used in the sortChIC paper. For a curated set of analysis vignettes and example pipelines, visit https://github.com/jakeyeung/sortchicAnalysis
+
 ### processing_scripts: 
 
   - These are scripts used for processing data, mainly through through the high performance computing cluster
