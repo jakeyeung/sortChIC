@@ -50,3 +50,25 @@ Check out `vignettes/explore_HSPC_dataset_quantify_log2fc_across_genesets.md` fo
 
 
 
+# FAQ (Frequenty Asked Questions)
+
+## Where do I find the sortChIC bam files and how do I look at them at single-cell resolution? 
+
+For genome-wide analysis, it is better to look at bam files rather than count matrices (which are better for dimensionality reduction and fitting statistical models).
+
+These bams have been already split and merged by cell types. 
+
+H3K4me3: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5018603
+
+H3K27me3: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5018601
+
+H3K4me1: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5018604
+
+H3K9me3: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5018607
+
+To get cell barcode from bam, look at the bam tag "CB", details for more tags in the github: 
+https://github.com/BuysDB/SingleCellMultiOmics/blob/master/TAGS.MD
+
+To extract the cell barcode from a read from bam, use `pysam` e.g. `read.get_tag("CB")`
+
+Avoid the qChIC bam files, they are old.
