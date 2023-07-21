@@ -1,4 +1,4 @@
-# Repository of code used to do sortChIC processing and analysis
+=# Repository of code used to do sortChIC processing and analysis
 
 ### processing_scripts: 
 
@@ -46,8 +46,7 @@ Example scripts are ordered from 1 to 6, which are run in ascending order. Singl
 
 # Vignettes for exploring data 
 
-Check out `vignettes/explore_HSPC_dataset_quantify_log2fc_across_genesets.md` for an example of how to explore the HSPC data and access the log2 fold change estimates between cell types.
-
+Check out "https://github.com/jakeyeung/sortchicAnalysis" for analysis vignettes
 
 
 # FAQ (Frequenty Asked Questions)
